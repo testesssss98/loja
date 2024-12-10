@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros de Luxo e Rápidos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Carros de Luxo e Rápidos</h1>
+        <p id="welcomeMessage"></p>
+    </header>
+    <main>
+        <div class="car-container">
+            <!-- Página 1: 10 carros -->
+            <div class="car-item" id="car1">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/2018_Bugatti_Chiron_1.jpg" alt="Bugatti Chiron" class="car-image">
+                <h2>Bugatti Chiron</h2>
+                <p>Preço: R$ 20.000.000</p>
+                <button onclick="comprarCarro('Bugatti Chiron')">Comprar</button>
+            </div>
+
+            <div class="car-item" id="car2">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/2018_Lamborghini_Aventador_S_Pigato.jpg" alt="Lamborghini Aventador" class="car-image">
+                <h2>Lamborghini Aventador</h2>
+                <p>Preço: R$ 15.000.000</p>
+                <button onclick="comprarCarro('Lamborghini Aventador')">Comprar</button>
+            </div>
+
+            <div class="car-item" id="car3">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/LaFerrari_1.jpg" alt="Ferrari LaFerrari" class="car-image">
+                <h2>Ferrari LaFerrari</h2>
+                <p>Preço: R$ 18.000.000</p>
+                <button onclick="comprarCarro('Ferrari LaFerrari')">Comprar</button>
+            </div>
+
+            <div class="car-item" id="car4">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Koenigsegg_Agera_RS_1.jpg" alt="Koenigsegg Agera RS" class="car-image">
+                <h2>Koenigsegg Agera RS</h2>
+                <p>Preço: R$ 25.000.000</p>
+                <button onclick="comprarCarro('Koenigsegg Agera RS')">Comprar</button>
+            </div>
+
+            <div class="car-item" id="car5">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Porsche_918_Spyder.jpg" alt="Porsche 918 Spyder" class="car-image">
+                <h2>Porsche 918 Spyder</h2>
+                <p>Preço: R$ 12.000.000</p>
+                <button onclick="comprarCarro('Porsche 918 Spyder')">Comprar</button>
+            </div>
+
+            <div class="car-item" id="car6">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/37/McLaren_P1.jpg" alt="McLaren P1" class="car-image">
+                <h2>McLaren P1</h2>
+                <p>Preço: R$ 17.000.000</p>
+                <button onclick="comprarCarro('McLaren P1')">Comprar</button>
+            </div>
+
+            <div class="car-item" id="car7">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Ferrari_488_GTB_2015.jpg" alt="Ferrari 488 GTB" class="car-image">
+                <h2>Ferrari 488 GTB</h2>
+                <p>Preço: R$ 8.000.000</p>
+                <button onclick="comprarCarro('Ferrari 488 GTB')">Comprar</button>
+            </div>
+
+            <div class="car-item" id="car8">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Maserati_Alfieri_Concept.JPG" alt="Maserati Alfieri" class="car-image">
+                <h2>Maserati Alfieri</h2>
+                <p>Preço: R$ 7.000.000</p>
+                <button onclick="comprarCarro('Maserati Alfieri')">Comprar</button>
+            </div>
+
+            <div class="car-item" id="car9">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Aston_Martin_Vanquish_S.jpg" alt="Aston Martin Vanquish" class="car-image">
+                <h2>Aston Martin Vanquish</h2>
+                <p>Preço: R$ 10.000.000</p>
+                <button onclick="comprarCarro('Aston Martin Vanquish')">Comprar</button>
+            </div>
+
+            <div class="car-item" id="car10">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Ferrari_F8_Tributo_-_Geneva_2019.jpg" alt="Ferrari F8 Tributo" class="car-image">
+                <h2>Ferrari F8 Tributo</h2>
+                <p>Preço: R$ 8.500.000</p>
+                <button onclick="comprarCarro('Ferrari F8 Tributo')">Comprar</button>
+            </div>
+        </div>
+
+        <div class="pagination">
+            <button onclick="nextPage()">Próxima Página</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Carros de Luxo e Rápidos</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
